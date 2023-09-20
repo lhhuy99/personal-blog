@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    font-size: 120%;
+    color: rgb(170, 86, 26);
+    margin: 2%;
+    background-color: rgb(255, 255, 255);
+}
+
+h1,
+.fakeh1 {
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 166, 0, 0.158);
+    margin-left: -50%;
+    margin-right: -50%;
+}
+
+.fakeh1 {
+    line-height: 125%;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.nav-link {
+    color: rgb(170, 86, 26);
+}
+
+.dropdown-item {
+    color: rgb(170, 86, 26);
+    padding-left: 0px;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-nav li:hover .dropdown-menu {
+    margin-top: 0px;
+    display: block;
+}
+
+.navbar-nav li:hover {
+    background-color: rgb(64, 224, 171);
+}
+
+.navbar-nav li {
+    transition: .5s background-color;
+}
+
+.navbar-nav li:hover .dropdown-menu a {
+    transition: .5s background-color;
+}
+
+.navbar-nav li:hover .dropdown-menu a:hover {
+    background-color: rgb(64, 224, 171);
+}
+
+.navbar-nav li {
+    margin-right: 10%;
+}
+
+footer p::first-letter {
+    font-size: 200%;
+}
+
+main hr {
+    height: 1px;
+    background-color: rgb(170, 86, 26);
+}
+
+article a {
+    transition: .5s background-color;
+}
+
+article a:hover {
+    background-color: rgb(14, 209, 95);
+}

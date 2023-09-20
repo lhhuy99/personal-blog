@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+.form-control {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1em;
+    color: rgb(170, 86, 26);
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(170, 86, 26);
+    border-radius: 5px;
+    margin-bottom: -20px;
+}
+
+.cake::placeholder {
+    color: rgb(170, 86, 26);
+}
+
+.container {
+    padding-left: 10px;
+}
+
+label,
+.callBefore {
+    position: relative;
+    top: 5px;
+}
+
+.mes {
+    position: relative;
+    top: 50px;
+}
+
+button {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1em;
+    background-color: rgb(170, 86, 26);
+    color: rgb(255, 255, 255);
+    margin-left: 15%;
+    padding: 12px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.col-25 {
+    width: 15%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    width: 35%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    margin-bottom: 1px;
+}
+
+input[type=checkbox] {
+    margin-right: 15px;
+}
+
+.inc,
+.delTo {
+    position: relative;
+    top: 30px
+}
+
+span:not(.inc, .callBefore) {
+    color: rgb(255, 0, 0);
+}
+
+.customClass1 {
+    margin-top: 5px;
+}
+
+.customClass2 {
+    margin-top: -10px;
+}
+
+#cakename {
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 992px) {
+    .col-25 {
+        width: 100%;
+    }
+    .col-75 {
+        width: 100%;
+    }
+    .row button {
+        width: 150px;
+    }
+    .mes {
+        position: static;
+    }
+    .row {
+        margin-bottom: 10px;
+    }
+    button {
+        margin-left: 0px;
+    }
+    .inc,
+    .delTo {
+        position: static;
+    }
+    .customClass1 {
+        margin-top: 20px;
+    }
+    .customClass2 {
+        margin-top: -30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-25 {
+        width: 100%;
+    }
+    .col-75 {
+        width: 100%;
+    }
+}
